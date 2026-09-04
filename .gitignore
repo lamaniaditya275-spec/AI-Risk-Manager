@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/*.csv
+!data/processed/smoke_test_data.csv
+.streamlit/secrets.toml

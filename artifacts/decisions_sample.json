@@ -1,0 +1,1514 @@
+[
+  {
+    "decision_id": "dec_3479006",
+    "order_id": 3479006,
+    "customer_id": "11482_555.0_185.0_visa_-1.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 1.0,
+    "risk_score_raw": 1.0,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2489,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 2285 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 2285 other customer accounts prior to this order",
+      "Model risk score: 1.00"
+    ],
+    "feature_snapshot_hash": "sha256:673b347654e30a01",
+    "created_at": "2026-09-02T10:52:17.202796+00:00"
+  },
+  {
+    "decision_id": "dec_3479018",
+    "order_id": 3479018,
+    "customer_id": "11482_555.0_185.0_visa_-1.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 1.0,
+    "risk_score_raw": 1.0,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2945,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 2285 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 2285 other customer accounts prior to this order",
+      "Model risk score: 1.00"
+    ],
+    "feature_snapshot_hash": "sha256:4b59d65c4f836a32",
+    "created_at": "2026-09-02T10:52:17.205594+00:00"
+  },
+  {
+    "decision_id": "dec_3485320",
+    "order_id": 3485320,
+    "customer_id": "10616_583.0_150.0_visa_158.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 0.7647,
+    "risk_score_raw": 0.7647,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.183,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 63 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 175 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 63 other customer accounts prior to this order",
+      "Shipping address linked to 175 other customer accounts prior to this order",
+      "Model risk score: 0.76"
+    ],
+    "feature_snapshot_hash": "sha256:e63044bcd79f82f4",
+    "created_at": "2026-09-02T10:52:19.015684+00:00"
+  },
+  {
+    "decision_id": "dec_3485332",
+    "order_id": 3485332,
+    "customer_id": "10616_583.0_150.0_visa_158.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 1.0,
+    "risk_score_raw": 1.0,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2029,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 63 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 175 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 63 other customer accounts prior to this order",
+      "Shipping address linked to 175 other customer accounts prior to this order",
+      "Model risk score: 1.00"
+    ],
+    "feature_snapshot_hash": "sha256:a1393b02f46a3bfb",
+    "created_at": "2026-09-02T10:52:19.018515+00:00"
+  },
+  {
+    "decision_id": "dec_3491635",
+    "order_id": 3491635,
+    "customer_id": "15525_279.0_150.0_visa_441.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 0.7647,
+    "risk_score_raw": 0.7647,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1884,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1079 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 1079 other customer accounts prior to this order",
+      "Model risk score: 0.76"
+    ],
+    "feature_snapshot_hash": "sha256:7defea4d5ef0d384",
+    "created_at": "2026-09-02T10:52:20.684638+00:00"
+  },
+  {
+    "decision_id": "dec_3493146",
+    "order_id": 3493146,
+    "customer_id": "15525_279.0_150.0_visa_441.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 0.7647,
+    "risk_score_raw": 0.7647,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1334,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1079 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 1079 other customer accounts prior to this order",
+      "Model risk score: 0.76"
+    ],
+    "feature_snapshot_hash": "sha256:c1cd3528d92034db",
+    "created_at": "2026-09-02T10:52:21.073383+00:00"
+  },
+  {
+    "decision_id": "dec_3493151",
+    "order_id": 3493151,
+    "customer_id": "15525_279.0_150.0_visa_441.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 0.875,
+    "risk_score_raw": 0.875,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1995,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1079 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 1079 other customer accounts prior to this order",
+      "Model risk score: 0.88"
+    ],
+    "feature_snapshot_hash": "sha256:fcdbf97468a5c3fa",
+    "created_at": "2026-09-02T10:52:21.074609+00:00"
+  },
+  {
+    "decision_id": "dec_3498715",
+    "order_id": 3498715,
+    "customer_id": "15525_279.0_150.0_visa_441.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 1.0,
+    "risk_score_raw": 1.0,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1496,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1084 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 1084 other customer accounts prior to this order",
+      "Model risk score: 1.00"
+    ],
+    "feature_snapshot_hash": "sha256:ba9ff6a5921145b3",
+    "created_at": "2026-09-02T10:52:22.496514+00:00"
+  },
+  {
+    "decision_id": "dec_3498721",
+    "order_id": 3498721,
+    "customer_id": "15525_279.0_150.0_visa_441.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 1.0,
+    "risk_score_raw": 1.0,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1936,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1084 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4 other customer accounts prior to this order",
+      "Shipping address linked to 1084 other customer accounts prior to this order",
+      "Model risk score: 1.00"
+    ],
+    "feature_snapshot_hash": "sha256:cfa3fb0b9cef1ce8",
+    "created_at": "2026-09-02T10:52:22.497894+00:00"
+  },
+  {
+    "decision_id": "dec_3499621",
+    "order_id": 3499621,
+    "customer_id": "6053_122.0_150.0_mastercard_264.0",
+    "action": "BLOCK_OR_FORCE_PREPAID",
+    "recovery_path": null,
+    "risk_band": "very_high",
+    "risk_score": 0.675,
+    "risk_score_raw": 0.875,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.2804,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6400 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1849 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6400 other customer accounts prior to this order",
+      "Shipping address linked to 1849 other customer accounts prior to this order",
+      "Model risk score: 0.88 \u2192 0.68 (trust adjustment: -0.20 from 38 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:7baba7dd1c36fc7f",
+    "created_at": "2026-09-02T10:52:22.748727+00:00"
+  },
+  {
+    "decision_id": "dec_3479427",
+    "order_id": 3479427,
+    "customer_id": "2744_490.0_150.0_visa_204.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.3964,
+    "risk_score_raw": 0.3964,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.337,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6319 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1884 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6319 other customer accounts prior to this order",
+      "Shipping address linked to 1884 other customer accounts prior to this order",
+      "Model risk score: 0.40"
+    ],
+    "feature_snapshot_hash": "sha256:a0cacab481c67c6e",
+    "created_at": "2026-09-02T10:52:17.315167+00:00"
+  },
+  {
+    "decision_id": "dec_3480315",
+    "order_id": 3480315,
+    "customer_id": "9500_321.0_150.0_visa_512.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.4286,
+    "risk_score_raw": 0.4286,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.297,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6322 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 651 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "EXTREME_AMOUNT_NEW_ACCOUNT_001",
+        "severity": "medium",
+        "reason": "Order amount is 5.8x this new account's baseline"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6322 other customer accounts prior to this order",
+      "Shipping address linked to 651 other customer accounts prior to this order",
+      "Order amount is 5.8x this new account's baseline",
+      "Model risk score: 0.43"
+    ],
+    "feature_snapshot_hash": "sha256:5307c7fd95e25e93",
+    "created_at": "2026-09-02T10:52:17.540206+00:00"
+  },
+  {
+    "decision_id": "dec_3483610",
+    "order_id": 3483610,
+    "customer_id": "6521_399.0_150.0_american express_330.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.3964,
+    "risk_score_raw": 0.3964,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2383,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6345 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1346 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6345 other customer accounts prior to this order",
+      "Shipping address linked to 1346 other customer accounts prior to this order",
+      "Model risk score: 0.40"
+    ],
+    "feature_snapshot_hash": "sha256:20fed967bd0adcaa",
+    "created_at": "2026-09-02T10:52:18.422141+00:00"
+  },
+  {
+    "decision_id": "dec_3484362",
+    "order_id": 3484362,
+    "customer_id": "18054_512.0_150.0_mastercard_387.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.4286,
+    "risk_score_raw": 0.4286,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2506,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6347 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 743 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6347 other customer accounts prior to this order",
+      "Shipping address linked to 743 other customer accounts prior to this order",
+      "Model risk score: 0.43"
+    ],
+    "feature_snapshot_hash": "sha256:3bc4464286c9c5df",
+    "created_at": "2026-09-02T10:52:18.756973+00:00"
+  },
+  {
+    "decision_id": "dec_3484365",
+    "order_id": 3484365,
+    "customer_id": "18054_512.0_150.0_mastercard_387.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.3519,
+    "risk_score_raw": 0.3519,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.3047,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6348 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 743 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6348 other customer accounts prior to this order",
+      "Shipping address linked to 743 other customer accounts prior to this order",
+      "Model risk score: 0.35"
+    ],
+    "feature_snapshot_hash": "sha256:84374911ec239e60",
+    "created_at": "2026-09-02T10:52:18.757682+00:00"
+  },
+  {
+    "decision_id": "dec_3484385",
+    "order_id": 3484385,
+    "customer_id": "18054_512.0_150.0_mastercard_387.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.3519,
+    "risk_score_raw": 0.3519,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.3606,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6348 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 743 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6348 other customer accounts prior to this order",
+      "Shipping address linked to 743 other customer accounts prior to this order",
+      "Model risk score: 0.35"
+    ],
+    "feature_snapshot_hash": "sha256:a907d39f165ec618",
+    "created_at": "2026-09-02T10:52:18.762868+00:00"
+  },
+  {
+    "decision_id": "dec_3484961",
+    "order_id": 3484961,
+    "customer_id": "3682_264.0_150.0_visa_330.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.5647,
+    "risk_score_raw": 0.7647,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.296,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 4652 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1350 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "EXTREME_AMOUNT_NEW_ACCOUNT_001",
+        "severity": "medium",
+        "reason": "Order amount is 11.4x this new account's baseline"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 4652 other customer accounts prior to this order",
+      "Shipping address linked to 1350 other customer accounts prior to this order",
+      "Order amount is 11.4x this new account's baseline",
+      "Model risk score: 0.76 \u2192 0.56 (trust adjustment: -0.20 from 74 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:9f893623a87ca1df",
+    "created_at": "2026-09-02T10:52:18.921784+00:00"
+  },
+  {
+    "decision_id": "dec_3485395",
+    "order_id": 3485395,
+    "customer_id": "16659_170.0_150.0_visa_251.0",
+    "action": "STEP_UP_VERIFICATION",
+    "recovery_path": "Verify via OTP to proceed",
+    "risk_band": "high",
+    "risk_score": 0.3964,
+    "risk_score_raw": 0.3964,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.3126,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6357 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 466 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6357 other customer accounts prior to this order",
+      "Shipping address linked to 466 other customer accounts prior to this order",
+      "Model risk score: 0.40"
+    ],
+    "feature_snapshot_hash": "sha256:979bcf21dd41434c",
+    "created_at": "2026-09-02T10:52:19.034371+00:00"
+  },
+  {
+    "decision_id": "dec_3520145",
+    "order_id": 3520145,
+    "customer_id": "7603_555.0_173.0_mastercard_296.0",
+    "action": "APPROVE",
+    "recovery_path": null,
+    "risk_band": "low",
+    "risk_score": 0.0417,
+    "risk_score_raw": 0.0417,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1306,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [],
+    "top_reasons": [
+      "Model risk score: 0.04"
+    ],
+    "feature_snapshot_hash": "sha256:a80441d40ba5302d",
+    "created_at": "2026-09-02T10:52:28.693826+00:00"
+  },
+  {
+    "decision_id": "dec_3530407",
+    "order_id": 3530407,
+    "customer_id": "11359_555.0_150.0_visa_276.0",
+    "action": "APPROVE",
+    "recovery_path": null,
+    "risk_band": "low",
+    "risk_score": 0.0067,
+    "risk_score_raw": 0.0067,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1607,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [],
+    "top_reasons": [
+      "Model risk score: 0.01"
+    ],
+    "feature_snapshot_hash": "sha256:790ed8e986bda8ff",
+    "created_at": "2026-09-02T10:52:31.507976+00:00"
+  },
+  {
+    "decision_id": "dec_3535808",
+    "order_id": 3535808,
+    "customer_id": "1234_555.0_156.0_visa_204.0",
+    "action": "APPROVE",
+    "recovery_path": null,
+    "risk_band": "low",
+    "risk_score": 0.0696,
+    "risk_score_raw": 0.0696,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1338,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [],
+    "top_reasons": [
+      "Model risk score: 0.07"
+    ],
+    "feature_snapshot_hash": "sha256:c34f5c73fa038800",
+    "created_at": "2026-09-02T10:52:32.967052+00:00"
+  },
+  {
+    "decision_id": "dec_3563234",
+    "order_id": 3563234,
+    "customer_id": "13925_555.0_219.0_mastercard_296.0",
+    "action": "APPROVE",
+    "recovery_path": null,
+    "risk_band": "low",
+    "risk_score": 0.0919,
+    "risk_score_raw": 0.0919,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1338,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [],
+    "top_reasons": [
+      "Model risk score: 0.09"
+    ],
+    "feature_snapshot_hash": "sha256:4dfcc7d34e0e7446",
+    "created_at": "2026-09-02T10:52:40.303414+00:00"
+  },
+  {
+    "decision_id": "dec_3477148",
+    "order_id": 3477148,
+    "customer_id": "15627_239.0_150.0_mastercard_330.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0315,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.053,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1340 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 1340 other customer accounts prior to this order",
+      "Model risk score: 0.03 \u2192 0.00 (trust adjustment: -0.20 from 202 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:53d04574e6f9314e",
+    "created_at": "2026-09-02T10:52:16.637813+00:00"
+  },
+  {
+    "decision_id": "dec_3477149",
+    "order_id": 3477149,
+    "customer_id": "4274_555.0_150.0_visa_220.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0175,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.0702,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 447 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 447 other customer accounts prior to this order",
+      "Model risk score: 0.02"
+    ],
+    "feature_snapshot_hash": "sha256:3597e329bad7df83",
+    "created_at": "2026-09-02T10:52:16.638151+00:00"
+  },
+  {
+    "decision_id": "dec_3477150",
+    "order_id": 3477150,
+    "customer_id": "12932_361.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0094,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0876,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 18 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 18 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 499 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:3b2b55bef492025d",
+    "created_at": "2026-09-02T10:52:16.638409+00:00"
+  },
+  {
+    "decision_id": "dec_3477151",
+    "order_id": 3477151,
+    "customer_id": "17188_321.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0149,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0772,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 52 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 52 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 8 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:cab181f0b12f32c7",
+    "created_at": "2026-09-02T10:52:16.638654+00:00"
+  },
+  {
+    "decision_id": "dec_3477152",
+    "order_id": 3477152,
+    "customer_id": "4274_555.0_150.0_visa_220.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0417,
+    "risk_score_raw": 0.0417,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1199,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 447 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 447 other customer accounts prior to this order",
+      "Model risk score: 0.04"
+    ],
+    "feature_snapshot_hash": "sha256:b21e4ff3f6489a09",
+    "created_at": "2026-09-02T10:52:16.638891+00:00"
+  },
+  {
+    "decision_id": "dec_3477148",
+    "order_id": 3477148,
+    "customer_id": "15627_239.0_150.0_mastercard_330.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0315,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.053,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1340 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 1340 other customer accounts prior to this order",
+      "Model risk score: 0.03 \u2192 0.00 (trust adjustment: -0.20 from 202 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:53d04574e6f9314e",
+    "created_at": "2026-09-02T10:52:16.637813+00:00"
+  },
+  {
+    "decision_id": "dec_3477149",
+    "order_id": 3477149,
+    "customer_id": "4274_555.0_150.0_visa_220.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0175,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.0702,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 447 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 447 other customer accounts prior to this order",
+      "Model risk score: 0.02"
+    ],
+    "feature_snapshot_hash": "sha256:3597e329bad7df83",
+    "created_at": "2026-09-02T10:52:16.638151+00:00"
+  },
+  {
+    "decision_id": "dec_3477150",
+    "order_id": 3477150,
+    "customer_id": "12932_361.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0094,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0876,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 18 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 18 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 499 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:3b2b55bef492025d",
+    "created_at": "2026-09-02T10:52:16.638409+00:00"
+  },
+  {
+    "decision_id": "dec_3477151",
+    "order_id": 3477151,
+    "customer_id": "17188_321.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0149,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0772,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 52 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 52 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 8 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:cab181f0b12f32c7",
+    "created_at": "2026-09-02T10:52:16.638654+00:00"
+  },
+  {
+    "decision_id": "dec_3477152",
+    "order_id": 3477152,
+    "customer_id": "4274_555.0_150.0_visa_220.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0417,
+    "risk_score_raw": 0.0417,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1199,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 447 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 447 other customer accounts prior to this order",
+      "Model risk score: 0.04"
+    ],
+    "feature_snapshot_hash": "sha256:b21e4ff3f6489a09",
+    "created_at": "2026-09-02T10:52:16.638891+00:00"
+  },
+  {
+    "decision_id": "dec_3477153",
+    "order_id": 3477153,
+    "customer_id": "16132_111.0_150.0_visa_299.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0242,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.5037,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 39 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1926 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 39 other customer accounts prior to this order",
+      "Shipping address linked to 1926 other customer accounts prior to this order",
+      "Model risk score: 0.02 \u2192 0.00 (trust adjustment: -0.20 from 2811 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:b2801893d9f46b21",
+    "created_at": "2026-09-02T10:52:16.639144+00:00"
+  },
+  {
+    "decision_id": "dec_3477154",
+    "order_id": 3477154,
+    "customer_id": "11590_321.0_150.0_visa_264.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0053,
+    "trust_adjustment": 0.15,
+    "anomaly_score": 0.1159,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1829 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 1829 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.15 from 3 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:6a062cb02a982135",
+    "created_at": "2026-09-02T10:52:16.639387+00:00"
+  },
+  {
+    "decision_id": "dec_3477155",
+    "order_id": 3477155,
+    "customer_id": "1906_445.0_150.0_mastercard_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0094,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0569,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 35 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 35 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 74 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:815383d27936e0b6",
+    "created_at": "2026-09-02T10:52:16.639627+00:00"
+  },
+  {
+    "decision_id": "dec_3477156",
+    "order_id": 3477156,
+    "customer_id": "10112_360.0_150.0_visa_204.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0242,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0829,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 59 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1880 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 59 other customer accounts prior to this order",
+      "Shipping address linked to 1880 other customer accounts prior to this order",
+      "Model risk score: 0.02 \u2192 0.00 (trust adjustment: -0.20 from 146 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:1897c1c9fc4161c0",
+    "created_at": "2026-09-02T10:52:16.639865+00:00"
+  },
+  {
+    "decision_id": "dec_3477157",
+    "order_id": 3477157,
+    "customer_id": "15885_545.0_185.0_visa_-1.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0417,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.6076,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 1014 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 2278 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 1014 other customer accounts prior to this order",
+      "Shipping address linked to 2278 other customer accounts prior to this order",
+      "Model risk score: 0.04 \u2192 0.00 (trust adjustment: -0.20 from 7938 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:91cb79dd381665e0",
+    "created_at": "2026-09-02T10:52:16.640152+00:00"
+  },
+  {
+    "decision_id": "dec_3477158",
+    "order_id": 3477158,
+    "customer_id": "3124_390.0_150.0_mastercard_220.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0175,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.2046,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 447 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Shipping address linked to 447 other customer accounts prior to this order",
+      "Model risk score: 0.02"
+    ],
+    "feature_snapshot_hash": "sha256:ad097f01e44c1bb2",
+    "created_at": "2026-09-02T10:52:16.640393+00:00"
+  },
+  {
+    "decision_id": "dec_3477159",
+    "order_id": 3477159,
+    "customer_id": "2455_321.0_150.0_visa_299.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0587,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.1432,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 49 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1926 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 49 other customer accounts prior to this order",
+      "Shipping address linked to 1926 other customer accounts prior to this order",
+      "Model risk score: 0.06 \u2192 0.00 (trust adjustment: -0.20 from 363 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:48053cb5fbc7edd2",
+    "created_at": "2026-09-02T10:52:16.640633+00:00"
+  },
+  {
+    "decision_id": "dec_3477160",
+    "order_id": 3477160,
+    "customer_id": "9500_321.0_150.0_visa_433.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.2262,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 57 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 673 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 57 other customer accounts prior to this order",
+      "Shipping address linked to 673 other customer accounts prior to this order",
+      "Model risk score: 0.02 \u2192 0.00 (trust adjustment: -0.20 from 766 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:fc6b580f9e584d2e",
+    "created_at": "2026-09-02T10:52:16.640870+00:00"
+  },
+  {
+    "decision_id": "dec_3477161",
+    "order_id": 3477161,
+    "customer_id": "2650_142.0_185.0_mastercard_-1.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0919,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.4152,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 10038 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 2278 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 10038 other customer accounts prior to this order",
+      "Shipping address linked to 2278 other customer accounts prior to this order",
+      "Model risk score: 0.09 \u2192 0.00 (trust adjustment: -0.20 from 385 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:f9885f377382f805",
+    "created_at": "2026-09-02T10:52:16.641148+00:00"
+  },
+  {
+    "decision_id": "dec_3477162",
+    "order_id": 3477162,
+    "customer_id": "13623_585.0_150.0_visa_498.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0587,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0771,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 6 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 480 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 6 other customer accounts prior to this order",
+      "Shipping address linked to 480 other customer accounts prior to this order",
+      "Model risk score: 0.06 \u2192 0.00 (trust adjustment: -0.20 from 172 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:cf2eb5c292702c51",
+    "created_at": "2026-09-02T10:52:16.641391+00:00"
+  },
+  {
+    "decision_id": "dec_3477163",
+    "order_id": 3477163,
+    "customer_id": "12932_361.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.1063,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 18 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 18 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.02 \u2192 0.00 (trust adjustment: -0.20 from 500 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:dee6900a6508b431",
+    "created_at": "2026-09-02T10:52:16.641632+00:00"
+  },
+  {
+    "decision_id": "dec_3477164",
+    "order_id": 3477164,
+    "customer_id": "15066_170.0_150.0_mastercard_299.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0447,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.217,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 70 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1926 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 70 other customer accounts prior to this order",
+      "Shipping address linked to 1926 other customer accounts prior to this order",
+      "Model risk score: 0.04 \u2192 0.00 (trust adjustment: -0.20 from 583 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:915ce48aab1200e3",
+    "created_at": "2026-09-02T10:52:16.641871+00:00"
+  },
+  {
+    "decision_id": "dec_3477165",
+    "order_id": 3477165,
+    "customer_id": "9500_321.0_150.0_visa_272.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0127,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.4181,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 57 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1216 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 57 other customer accounts prior to this order",
+      "Shipping address linked to 1216 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 2161 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:0d8d0355d7a8f6c3",
+    "created_at": "2026-09-02T10:52:16.642123+00:00"
+  },
+  {
+    "decision_id": "dec_3477166",
+    "order_id": 3477166,
+    "customer_id": "11983_268.0_150.0_visa_325.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0143,
+    "risk_score_raw": 0.0143,
+    "trust_adjustment": 0.0,
+    "anomaly_score": 0.1224,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 8 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1645 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 8 other customer accounts prior to this order",
+      "Shipping address linked to 1645 other customer accounts prior to this order",
+      "Model risk score: 0.01"
+    ],
+    "feature_snapshot_hash": "sha256:8f06399399981bc2",
+    "created_at": "2026-09-02T10:52:16.642367+00:00"
+  },
+  {
+    "decision_id": "dec_3477167",
+    "order_id": 3477167,
+    "customer_id": "2803_100.0_150.0_visa_272.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0175,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0771,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 65 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1216 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 65 other customer accounts prior to this order",
+      "Shipping address linked to 1216 other customer accounts prior to this order",
+      "Model risk score: 0.02 \u2192 0.00 (trust adjustment: -0.20 from 418 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:c413f127b8ca229f",
+    "created_at": "2026-09-02T10:52:16.642610+00:00"
+  },
+  {
+    "decision_id": "dec_3477168",
+    "order_id": 3477168,
+    "customer_id": "1939_360.0_150.0_visa_299.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0133,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.0872,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 50 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1926 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 50 other customer accounts prior to this order",
+      "Shipping address linked to 1926 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 18 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:27430b28d703c4f0",
+    "created_at": "2026-09-02T10:52:16.642854+00:00"
+  },
+  {
+    "decision_id": "dec_3477169",
+    "order_id": 3477169,
+    "customer_id": "2455_321.0_150.0_visa_299.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0696,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.162,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 49 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 1926 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 49 other customer accounts prior to this order",
+      "Shipping address linked to 1926 other customer accounts prior to this order",
+      "Model risk score: 0.07 \u2192 0.00 (trust adjustment: -0.20 from 364 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:222e452dbc55d969",
+    "created_at": "2026-09-02T10:52:16.643103+00:00"
+  },
+  {
+    "decision_id": "dec_3477170",
+    "order_id": 3477170,
+    "customer_id": "9175_111.0_150.0_visa_126.0",
+    "action": "APPROVE_WITH_MONITORING",
+    "recovery_path": null,
+    "risk_band": "medium",
+    "risk_score": 0.0,
+    "risk_score_raw": 0.0143,
+    "trust_adjustment": 0.2,
+    "anomaly_score": 0.2011,
+    "model_version": "risk_model_v1",
+    "triggered_rules": [
+      {
+        "rule_id": "DEVICE_RING_001",
+        "severity": "high",
+        "reason": "Device linked to 18 other customer accounts prior to this order"
+      },
+      {
+        "rule_id": "ADDRESS_RING_001",
+        "severity": "high",
+        "reason": "Shipping address linked to 980 other customer accounts prior to this order"
+      }
+    ],
+    "top_reasons": [
+      "Device linked to 18 other customer accounts prior to this order",
+      "Shipping address linked to 980 other customer accounts prior to this order",
+      "Model risk score: 0.01 \u2192 0.00 (trust adjustment: -0.20 from 764 prior cleared flags)"
+    ],
+    "feature_snapshot_hash": "sha256:1efc5daf4044056d",
+    "created_at": "2026-09-02T10:52:16.643381+00:00"
+  }
+]
