@@ -1,5 +1,11 @@
 # AI Risk Manager — Schema-Driven Payment Fraud & Ring Detection
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-orange)
+![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)
+![FastAPI](https://img.shields.io/badge/API-FastAPI-teal)
+![License](https://img.shields.io/badge/Scope-Defense--Only-green)
+
 An enterprise-grade, cost-aware AI risk engine built for the **Razorpay AI Buildathon (Track 02: AI Risk Manager)**. The system combines deterministic business rules, graph-lite entity ring detection, calibrated XGBoost machine learning, IsolationForest anomaly scoring, and dynamic risk-band decisioning with step-up verification recovery paths.
 
 ---
@@ -19,6 +25,23 @@ Because IEEE-CIS is a financial payment-fraud dataset:
 ## 2. System Architecture
 
 The project consists of 8 modular components designed for end-to-end auditability and low-latency execution:
+
+```mermaid
+flowchart TD
+    A["Raw Order Data"] --> B["Schema Mapping\nconfig.py"]
+    B --> C["Feature Engineering\nfeatures.py"]
+    C --> D["Rules Engine\nrules.py"]
+    C --> E["ML Layer\nXGBoost + Isotonic\nmodel.py"]
+    D --> F["Decision Engine\nrisk_engine.py"]
+    E --> F
+    F --> G{Action}
+    G --> H[APPROVE]
+    G --> I[APPROVE_WITH_MONITORING]
+    G --> J["STEP_UP_VERIFICATION\nOTP Recovery"]
+    G --> K[BLOCK_OR_FORCE_PREPAID]
+    F --> L["Reviewer Dashboard\ndashboard.py"]
+    F --> M["Scoring API\napi.py"]
+```
 
 1. **Schema-Driven Ingestion (`src/config.py`)**: Maps arbitrary raw CSV columns to a fixed internal schema (`order_id`, `customer_id`, `device_id`, `address_id`, `phone`, `promo_code`, `order_amount`, `payment_method`, `order_timestamp`, `account_created_at`, `label_fraud`).
 2. **Feature Engineering (`src/features.py`)**: Computes rolling velocity windows (1h, 24h, 7d), account age, consistency ratios, customer lifetime value (`customer_lifetime_value_proxy`), and graph-lite ring detection features (`distinct_customer_id_per_device_id_prior`). All calculations use strictly backward-looking expanding windows to guarantee zero data leakage.
@@ -41,15 +64,21 @@ Evaluated on the held-out test set of **100,392 orders** (chronologically strict
 - **Optimal Decision Threshold**: **0.75** (selected by minimizing expected financial cost in ₹).
 - **Expected Financial Cost at Optimal Threshold**: **₹33,87,413** (down from ₹43,407,366 at default 0.05 threshold).
 - **Ablation Comparison (Validation PR-AUC)**:
-  - Rules-Only Baseline: PR-AUC = 0.038 (Precision: 3.8%, Recall: 100%)
-  - ML Base Model (no graph features): PR-AUC = 0.1971
-  - Full Model (ML + Graph-Lite Ring Features): PR-AUC = 0.2163 (+0.0192 improvement from graph features)
+
+| Model Stage | PR-AUC | Notes |
+|---|---|---|
+| Rules-Only Baseline | 0.038 | Precision 3.8%, Recall 100% |
+| ML Base (no graph) | 0.1971 | |
+| Full Model (ML + Graph-Lite) | 0.2163 | +0.0192 from graph features |
 
 ### Test Set Action Distribution
-- `APPROVE_WITH_MONITORING`: 100,193
-- `STEP_UP_VERIFICATION`: 128 (triggers OTP verification)
-- `BLOCK_OR_FORCE_PREPAID`: 67
-- `APPROVE`: 4
+
+| Action | Count |
+|---|---|
+| `APPROVE_WITH_MONITORING` | 100,193 |
+| `STEP_UP_VERIFICATION` | 128 (triggers OTP verification) |
+| `BLOCK_OR_FORCE_PREPAID` | 67 |
+| `APPROVE` | 4 |
 
 ---
 
