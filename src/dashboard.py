@@ -78,7 +78,7 @@ with left:
         "risk_score", ascending=False
     )
 
-    for _, row in filtered.iterrows():
+    for idx, row in filtered.iterrows():
         band_color = {
             "very_high": "🔴", "high": "🟠", "medium": "🟡", "low": "🟢"
         }.get(row["risk_band"], "⚪")
@@ -116,13 +116,13 @@ with left:
 
             status = st.session_state.review_status.get(row["decision_id"], "Pending")
             btn_cols = st.columns(4)
-            if btn_cols[0].button("✅ Approve", key=f"appr_{row['decision_id']}"):
+            if btn_cols[0].button("✅ Approve", key=f"appr_{row['decision_id']}_{idx}"):
                 st.session_state.review_status[row["decision_id"]] = "Approved"
-            if btn_cols[1].button("⏸️ Hold", key=f"hold_{row['decision_id']}"):
+            if btn_cols[1].button("⏸️ Hold", key=f"hold_{row['decision_id']}_{idx}"):
                 st.session_state.review_status[row["decision_id"]] = "Held"
-            if btn_cols[2].button("⛔ Block", key=f"block_{row['decision_id']}"):
+            if btn_cols[2].button("⛔ Block", key=f"block_{row['decision_id']}_{idx}"):
                 st.session_state.review_status[row["decision_id"]] = "Blocked"
-            if btn_cols[3].button("🔄 Reset", key=f"reset_{row['decision_id']}"):
+            if btn_cols[3].button("🔄 Reset", key=f"reset_{row['decision_id']}_{idx}"):
                 st.session_state.review_status[row["decision_id"]] = "Pending"
 
             st.markdown(f"**Reviewer status:** `{st.session_state.review_status[row['decision_id']]}`")
